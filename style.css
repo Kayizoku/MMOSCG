@@ -5,29 +5,21 @@ h1 {
 	text-align: center;
 }
 
-/*.navBar a {
-	font-weight: bold;
-	background-color:#333;
-	color:white;
-    text-align: center;
-    text-decoration: none;
-    font-size: 1vw;
-    width:30%;
-
-}*/
-
 ul {
-	display:flex;
+	display:inline-flex;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
     text-align: center;
+    width:50%;
+
 }
 
 li {
     display:inline-block;
+    text-align: center;
 }
 
 li a {
@@ -50,12 +42,12 @@ li a:hover {
     right: 0;
     left: 0;
     z-index: 9999;
-    display: block;
+    display: inline;
     margin: 0;
     width: 100vw;
     min-width: 1024px;
-    height: 48px;
-    max-height: 44px;
+    height: 3vw;
+    max-height: 54px;
     background: #333;
     background: rgba(0,0,0,0.8);
  }

@@ -20,18 +20,19 @@ ul {
 li {
     display:inline-block;
     text-align: center;
+    width:8vw;
 }
 
 li a {
     display: block;
-    color: white;
+    color: #CDCCCC;
     padding: 16px;
     text-decoration: none;
     text-align:center;
 }
 
 li a:hover {
-    background-color: #111111;
+    color: white;
 }
 
 

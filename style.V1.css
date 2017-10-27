@@ -9,25 +9,27 @@ ul {
 	display:inline-flex;
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 0 30%;
+    height: 3.1vw;
     overflow: hidden;
     background-color: #333;
     text-align: center;
-    width:50%;
+    width:100%;
 
 }
-
 
 li {
     display:inline-block;
     text-align: center;
     width:8vw;
+    z-index: 99999;
+
 }
 
 li a {
     display: block;
     color: #CDCCCC;
-    padding: 12px;
+    padding: 0.9vw;
     text-decoration: none;
     text-align:center;
 }
@@ -36,6 +38,9 @@ li a:hover {
     color: white;
 }
 
+.navBar a {
+    font-size:1.1em ;
+}
 
 .navBar {
 	position: absolute;
@@ -48,8 +53,12 @@ li a:hover {
     margin: 0;
     width: 100vw;
     min-width: 1024px;
-    height: 3vw;
-    max-height: 54px;
+    height: 3.1vw;
+    min-height:50px;
     background: #333;
     /*background: rgba(0,0,0,0.8);*/
+ }
+
+ .right-border {
+    border-right: 1px solid black;
  }

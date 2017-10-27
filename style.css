@@ -1,19 +1,6 @@
 body {
 	background: #ccc;
-	line-height: 1.4em;
 }
 
-main{
-	position: relative;
-	top:5vw;
-}
 
-h1 {
-	float: right;
-}
-.left{
-	float: left;
-}
- h2 {
-	float: right;
-}
+// \n

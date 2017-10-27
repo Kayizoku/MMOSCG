@@ -2,5 +2,7 @@ body {
 	background: #ccc;
 }
 
-
-// \n
+main {
+	position: relative;
+	top: 6vh;
+}

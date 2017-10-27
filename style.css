@@ -3,6 +3,11 @@ body {
 	line-height: 1.4em;
 }
 
+main{
+	position: relative;
+	top:5vw;
+}
+
 h1 {
 	float: right;
 }

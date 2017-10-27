@@ -51,5 +51,5 @@ li a:hover {
     height: 3vw;
     max-height: 54px;
     background: #333;
-    background: rgba(0,0,0,0.8);
+    /*background: rgba(0,0,0,0.8);*/
  }

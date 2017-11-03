@@ -1,8 +1,10 @@
 body {
 	background: #ccc;
+	height:auto;
+	width: auto;
 }
 
 main {
 	position: relative;
-	top: 6vh;
+	top: 8vh;
 }

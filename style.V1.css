@@ -5,8 +5,17 @@
     line-height: 1.7em;
 }
 
+body {
+    background: #ccc;
+    height:auto;
+    width: auto;
+    overflow-x: hidden;
+}
+
 main {
 	text-align: center;
+    position: relative;
+    top: 8vh;
 }
 
 .navbar {
@@ -71,9 +80,7 @@ li a:hover {
     border-right: 1px solid black;*/
  }
 
-#GeoPic {
-    width: 20%;
-}
+
 
 
 

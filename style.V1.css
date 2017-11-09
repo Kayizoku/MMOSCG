@@ -1,6 +1,8 @@
 *{
 	font-family: Open Sans;
-    max-width:100%;
+    max-width:90%;
+    margin: 0 auto;
+    line-height: 1.7em;
 }
 
 main {
@@ -68,5 +70,4 @@ li a:hover {
  .right-border {/*
     border-right: 1px solid black;*/
  }
-
 
